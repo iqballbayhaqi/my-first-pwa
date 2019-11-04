@@ -1,4 +1,4 @@
-const CACHE_NAME = "firstpwa-v1";
+const CACHE_NAME = "firstpwa-v3";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -6,10 +6,15 @@ var urlsToCache = [
   "/pages/home.html",
   "/pages/about.html",
   "/pages/contact.html",
+  "/pages/math.html",
   "/css/materialize.min.css",
+  "/css/home.css",
+  "/css/nav.css",
   "/js/materialize.min.js",
   "/js/nav.js",
-  "/icon.png"
+  "/icon.png",
+  "/img/abstract.jpg",
+  "/img/math.jpg"
 ];
  
 self.addEventListener("install", function(event) {

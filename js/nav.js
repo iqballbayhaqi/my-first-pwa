@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
         xhttp.open("GET", "nav.html", true);
         xhttp.send();
       }
-      
 
     // Load page content
     var page = window.location.hash.substr(1);
@@ -52,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
             content.innerHTML = "<p>Ups.. halaman tidak dapat diakses.</p>";
         }
         }
+        console.log(page)
     };
     xhttp.open("GET", "pages/" + page + ".html", true);
     xhttp.send();
