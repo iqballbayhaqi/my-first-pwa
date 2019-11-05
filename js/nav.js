@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function() {
             content.innerHTML = "<p>Ups.. halaman tidak dapat diakses.</p>";
         }
         }
-        console.log(page)
     };
     xhttp.open("GET", "pages/" + page + ".html", true);
     xhttp.send();
