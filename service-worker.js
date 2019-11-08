@@ -1,4 +1,4 @@
-const CACHE_NAME = "firstpwa-v5";
+const CACHE_NAME = "firstpwa-v2";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -12,7 +12,8 @@ var urlsToCache = [
   "/css/nav.css",
   "/js/materialize.min.js",
   "/js/nav.js",
-  "/icon.png",
+  "/img/icon-192.png",
+  "/img/icon-512.png",
   "/img/abstract.jpg",
   "/img/pwa.png",
   "/img/author.jpg"
